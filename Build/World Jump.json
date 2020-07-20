@@ -1,0 +1,16 @@
+{
+"companyName": "Andres Vergara",
+"productName": "World Jump",
+"productVersion": "0.1",
+"dataUrl": "World Jump.data.unityweb",
+"wasmCodeUrl": "World Jump.wasm.code.unityweb",
+"wasmFrameworkUrl": "World Jump.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.1f1"
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | World Jump</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="public/css/animate.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/World Jump.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <head>
+      <div class="content-enlace">
+            <h1>
+                <span class="m">W</span>
+                <span class="m">o</span>
+                <span class="m">r</span>
+                <span class="m">l</span>
+                <span class="m">d&nbsp</span>
+            </h1>
+            <h1>
+              <span class="m">&nbspJ</span>
+              <span class="m">u</span>
+              <span class="m">m</span>
+              <span class="m">p</span>
+          </h1>
+      </div>
+    </head>
+    <div class="game">
+      <div class="webgl-content">
+        <div id="unityContainer" style="width: 960px; height: 600px"></div>
+        <div class="footer">
+          <div class="webgl-logo"></div>
+          <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+          <div class="title">World Jump</div>
+        </div>
+        <div class="controles">
+          <div class="content-enlace2">
+            <h1>
+                <span class="m">C</span>
+                <span class="m">o</span>
+                <span class="m">n</span>
+                <span class="m">t</span>
+                <span class="m">r</span>
+                <span class="m">o</span>
+                <span class="m">l</span>
+                <span class="m">e</span>
+                <span class="m">s</span>
+            </h1>
+          </div>
+          <div class="teclas">
+            <div class="content-tecla">
+              <img src="TemplateData/izquierda.png" alt="">
+              <p><b>Moverse a la izquierda</b></p>
+            </div>
+            <div class="content-tecla">
+              <img src="TemplateData/derecha.png" alt="">
+              <p><b>Moverse a la derecha</b></p>
+            </div>
+            <div class="content-tecla">
+              <img class="space" src="TemplateData/spcae.png" alt="">
+              <p><b>Saltar</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="notas">
+          <div class="content-enlace2">
+            <h1>
+                <span class="m">N</span>
+                <span class="m">o</span>
+                <span class="m">t</span>
+                <span class="m">a</span>
+            </h1>
+          </div>
+        <div class="derechos">
+          <p>Los materiales utilizados, como son los sprites, de items, personajes, enemigos, así como los Tiles, backgrounds, musica y sonidos no son de mí autoría, los derechos les corresponden a sus respectivos autores.</p>
+        </div>
+        <div class="salto">
+
+        </div>
+        </div>
+      </div>
+    </div>
+   
+  </body>
+<script type="text/javascript" src="public/js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="public/js/script.js"></script>
+</html>

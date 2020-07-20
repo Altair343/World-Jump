@@ -1,0 +1,54 @@
+*{ background-color: #1F1F1F; font-family: "PT Sans", sans-serif; }
+
+.content-enlace{ display: flex; justify-content: center; padding-bottom: 4rem; }
+
+.content-enlace span { margin-top: 3rem; padding: 0; display: inline-block; margin-left: -7px; font-size: 4rem; color: #636363;}
+
+.content-enlace span:hover { color: #59b48d; transition: all 0.4; }
+
+.title{color: white;}
+
+.webgl-content * {border: 0; margin: 0; padding: 0}
+.webgl-content {position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+margin-top: 40rem;}
+
+.webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+.webgl-content .logo {background: url('progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
+.webgl-content .progress {height: 18px; width: 141px; margin-top: 90px;}
+.webgl-content .progress .empty {background: url('progressEmpty.Light.png') no-repeat right / cover; float: right; width: 100%; height: 100%; display: inline-block;}
+.webgl-content .progress .full {background: url('progressFull.Light.png') no-repeat left / cover; float: left; width: 0%; height: 100%; display: inline-block;}
+
+.webgl-content .logo.Dark {background-image: url('progressLogo.Dark.png');}
+.webgl-content .progress.Dark .empty {background-image: url('progressEmpty.Dark.png');}
+.webgl-content .progress.Dark .full {background-image: url('progressFull.Dark.png');}
+
+.webgl-content .footer {margin-top: 5px; height: 38px; line-height: 38px; font-family: Helvetica, Verdana, Arial, sans-serif; font-size: 18px;}
+.webgl-content .footer .webgl-logo, .title, .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;}
+.webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
+.webgl-content .footer .title {margin-right: 10px; float: right;}
+.webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+
+.controles{ margin-top: 3rem; }
+
+.content-enlace2{ display: flex; justify-content: center; padding-bottom: 4rem; }
+
+.content-enlace2 span { margin-top: 3rem; padding: 0; display: inline-block; margin-left: -7px; font-size: 2.5rem; color: #636363; }
+
+.content-enlace2 span:hover { color: #59b48d; transition: all 0.4; }
+
+.teclas .content-tecla{ margin-top: 1.5rem; }
+
+.teclas div img{ width: 5rem; }
+
+.teclas div p{ color: #636363; }
+
+.teclas div .space{ width: 12rem; }
+
+.notas{ margin-top: 2rem; }
+
+.derechos{ color: #636363; font-size: 1.3rem;
+text-align: justify; }
+
+.salto{
+    height: 5rem;
+}
